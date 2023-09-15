@@ -1,0 +1,473 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.UI\\VeganCounter.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.BLL\\VeganCounter.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.BLL\\VeganCounter.BLL.csproj",
+        "projectName": "VeganCounter.BLL",
+        "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.BLL\\VeganCounter.BLL.csproj",
+        "packagesPath": "C:\\Users\\eseda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eseda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj"
+              },
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.DAL\\VeganCounter.DAL.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.DAL\\VeganCounter.DAL.csproj"
+              },
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Entities\\VeganCounter.Entities.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Entities\\VeganCounter.Entities.csproj"
+              },
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Models\\VeganCounter.Models.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Models\\VeganCounter.Models.csproj"
+              },
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Shared\\VeganCounter.Shared.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Shared\\VeganCounter.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj",
+        "projectName": "VeganCounter.Core",
+        "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj",
+        "packagesPath": "C:\\Users\\eseda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eseda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.DAL\\VeganCounter.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.DAL\\VeganCounter.DAL.csproj",
+        "projectName": "VeganCounter.DAL",
+        "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.DAL\\VeganCounter.DAL.csproj",
+        "packagesPath": "C:\\Users\\eseda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eseda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj"
+              },
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Entities\\VeganCounter.Entities.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Entities\\VeganCounter.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.19, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Entities\\VeganCounter.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Entities\\VeganCounter.Entities.csproj",
+        "projectName": "VeganCounter.Entities",
+        "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Entities\\VeganCounter.Entities.csproj",
+        "packagesPath": "C:\\Users\\eseda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eseda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Models\\VeganCounter.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Models\\VeganCounter.Models.csproj",
+        "projectName": "VeganCounter.Models",
+        "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Models\\VeganCounter.Models.csproj",
+        "packagesPath": "C:\\Users\\eseda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eseda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Core\\VeganCounter.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Shared\\VeganCounter.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Shared\\VeganCounter.Shared.csproj",
+        "projectName": "VeganCounter.Shared",
+        "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Shared\\VeganCounter.Shared.csproj",
+        "packagesPath": "C:\\Users\\eseda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eseda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.UI\\VeganCounter.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.UI\\VeganCounter.UI.csproj",
+        "projectName": "VeganCounter.UI",
+        "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.UI\\VeganCounter.UI.csproj",
+        "packagesPath": "C:\\Users\\eseda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eseda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.BLL\\VeganCounter.BLL.csproj": {
+                "projectPath": "C:\\Users\\eseda\\OneDrive\\Masaüstü\\VeganCounter\\VeganCounter.BLL\\VeganCounter.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "CircularProgressBar": {
+              "target": "Package",
+              "version": "[2.8.0.16, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

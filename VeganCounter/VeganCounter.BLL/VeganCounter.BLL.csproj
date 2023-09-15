@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VeganCounter.Core\VeganCounter.Core.csproj" />
+    <ProjectReference Include="..\VeganCounter.DAL\VeganCounter.DAL.csproj" />
+    <ProjectReference Include="..\VeganCounter.Entities\VeganCounter.Entities.csproj" />
+    <ProjectReference Include="..\VeganCounter.Models\VeganCounter.Models.csproj" />
+    <ProjectReference Include="..\VeganCounter.Shared\VeganCounter.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
